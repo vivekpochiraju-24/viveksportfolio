@@ -27,126 +27,113 @@
                 </div>
             </div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#home-certifications">Certifications</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+               
             </ul>
         </div>
     </nav>
 
-    <header class="hero" id="home">
-        <div class="hero-content">
-            <div class="intro-section">
-                <h1 data-text="Vivek Pochiraju">Vivek</h1>
-                <h2 class="typing-text">Junior Developer</h2>
-                <div class="hero-cta">
-                    <a href="#projects" class="cta-btn">View Projects</a>
-                    <a href="#contact" class="cta-btn outline">Contact Me</a>
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="intro-container">
+                <h1 class="greeting">Hi, I'm</h1>
+                <div class="name-container">
+                    <span class="highlight-name">Vivek Pochiraju</span>
                 </div>
-            </div>
-            <div class="objective">
-                <p class="objective-text typing-effect">
-                    <span class="typed-text"></span><span class="cursor">|</span>
-                </p>
-                <div class="tech-stack">
-                    <span>Full Stack</span>
-                    <span>•</span>
-                    <span>Responsive Design</span>
-                    <span>•</span>
-                    <span>Problem Solver</span>
+                <div class="roles-container">
+                    <div class="role">Full Stack Developer</div>
+                    <div class="role-separator">•</div>
+                    <div class="role">AI Enthusiast</div>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
 
     <section id="education" class="education-section">
-        <div class="container">
-            <h2 class="section-title">Education Journey</h2>
-            <div class="education-timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="education-card">
-                            <div class="edu-header">
-                                <h3>Bachelor of Technology</h3>
-                                <span class="year">2020 - 2024</span>
-                            </div>
-                            <p class="institution">Sreenidhi Institute of Science and Technology</p>
-                            <p class="field">Computer Science Engineering</p>
-                            <ul class="achievements">
-                                <li>CGPA: 7.5</li>
-                                <li>Web Development Team Lead</li>
-                                <li>Technical Committee Member</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="education-card">
-                            <div class="edu-header">
-                                <h3>Intermediate Education</h3>
-                                <span class="year">2018 - 2020</span>
-                            </div>
-                            <p class="institution">Sri Chaitanya Junior College</p>
-                            <p class="field">MPC</p>
-                            <ul class="achievements">
-                                <li>Percentage: 95%</li>
-                                <li>Mathematics Club Member</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="education-card">
-                            <div class="edu-header">
-                                <h3>Secondary Education</h3>
-                                <span class="year">2017 - 2018</span>
-                            </div>
-                            <p class="institution">Pallavi Model School</p>
-                            <p class="field">CBSE</p>
-                            <ul class="achievements">
-                                <li>CGPA: 9.8</li>
-                                <li>Science Club Coordinator</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+        <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+        <div class="education-grid">
+            <div class="education-card animated-card">
+                <h3>Bachelor of Technology</h3>
+                <p>Swarnandhra College of Engineering and Technology</p>
+                <p><i class="fas fa-calendar-alt"></i> 2022 - 2026</p>
+                <p><i class="fas fa-map-marker-alt"></i> Seetharampuram</p>
+            </div>
+            <div class="education-card animated-card">
+                <h3>Intermediate Education</h3>
+                <p>Sasi Junior College</p>
+                <p><i class="fas fa-calendar-alt"></i> 2020 - 2022</p>
+                <p><i class="fas fa-map-marker-alt"></i> Tanuku</p>
+            </div>
+            <div class="education-card animated-card">
+                <h3>Secondary Education</h3>
+                <p>M.V.R Montessori School</p>
+                <p><i class="fas fa-calendar-alt"></i> 2019 - 2020</p>
+                <p><i class="fas fa-map-marker-alt"></i> Attili</p>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="section">
-        <h2 class="section-title"><i class="fas fa-code"></i> Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-category">
-                <h3><i class="fas fa-laptop-code"></i> Programming</h3>
-                <div class="skill-items">
-                    <span>Python</span>
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>SQL</span>
-                </div>
+    <section id="skills" class="skills-section">
+        <h2 class="section-title"><i class="fas fa-cogs"></i> Skills</h2>
+        <div class="skills-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="skill-card animated-card p-4 border rounded-lg shadow-md transition-transform duration-300 ease-in-out hover:transform hover:-translate-y-2">
+                <h3 class="font-bold text-lg skill-heading"><i class="fas fa-code"></i> Frontend</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React j.s</li>
+                    <li>Bootstrap</li>
+                </ul>
             </div>
-            <div class="skill-category">
-                <h3><i class="fas fa-database"></i> Data Science</h3>
-                <div class="skill-items">
-                    <span>Data Visualization</span>
-                    <span>Data Analysis</span>
-                </div>
+            <div class="skill-card animated-card p-4 border rounded-lg shadow-md transition-transform duration-300 ease-in-out hover:transform hover:-translate-y-2">
+                <h3 class="font-bold text-lg skill-heading"><i class="fas fa-server"></i> Backend</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>C</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>Django</li>
+                </ul>
             </div>
-            <div class="skill-category">
-                <h3><i class="fas fa-globe"></i> Web Development</h3>
-                <div class="skill-items">
-                    <span>Full Stack Development</span>
-                    <span>Power BI Developer</span>
-                </div>
+            <div class="skill-card animated-card p-4 border rounded-lg shadow-md transition-transform duration-300 ease-in-out hover:transform hover:-translate-y-2">
+                <h3 class="font-bold text-lg skill-heading"><i class="fas fa-code-branch"></i> Programming Languages</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>SQL</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                </ul>
+            </div>
+            <div class="skill-card animated-card p-4 border rounded-lg shadow-md transition-transform duration-300 ease-in-out hover:transform hover:-translate-y-2">
+                <h3 class="font-bold text-lg skill-heading"><i class="fas fa-tools"></i> Tools & Techniques</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>vscode</li>
+                    <li>Oracle SQL Developer</li>
+                    <li>Jupyter</li>
+                </ul>
+            </div>
+            <div class="skill-card animated-card p-4 border rounded-lg shadow-md transition-transform duration-300 ease-in-out hover:transform hover:-translate-y-2">
+                <h3 class="font-bold text-lg skill-heading"><i class="fas fa-user-friends"></i> Soft Skills</h3>
+                <ul>
+                    <li>Teamwork</li>
+                    <li>Communication</li>
+                    <li>Problem Solving</li>
+                    <li>Project Management</li>
+                </ul>
             </div>
         </div>
-    </section>
-
+    </section> 
+    
     <section id="projects" class="section">
         <h2 class="section-title"><i class="fas fa-project-diagram"></i> Projects</h2>
         <div class="projects-grid">
@@ -158,7 +145,65 @@
                     <span>CSS</span>
                     <span>JavaScript</span>
                 </div>
+                <a href="https://github.com/vivekpochiraju-24/CODSOFT/tree/main" target="_blank" class="view-button">View Project</a>
             </div>
+
+            <div class="project-card">
+                <h3>Stock Market Prediction</h3>
+                <p>Developed a web-based Stock Market Prediction application using HTML, CSS, and JavaScript to analyze stock trends.</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/vivekpochiraju-24/CodeAlpha_Stock-Prediction/tree/main" target="_blank" class="view-button">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Tic-Tac-Toe</h3>
+                <p>Developed a web-based Tic-Tac-Toe game using HTML, CSS, and JavaScript.</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/vivekpochiraju-24/Tic-Tac-Toe-app" target="_blank" class="view-button">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Clone Portfolio</h3>
+                <p>Developed a web-based Clone Portfolio using HTML, CSS, and JavaScript to showcase projects and skills.</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/vivekpochiraju-24/CODSOFT/tree/main" target="_blank" class="view-button">View Project</a>
+            </div>
+            
+            <div class="project-card">
+                <h3>Calculator</h3>
+                <p>Developed a web-based Calculator using HTML, CSS, and JavaScript to perform basic arithmetic operations.</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/vivekpochiraju-24/CODSOFT/tree/main" target="_blank" class="view-button">View Project</a>
+            </div>
+            
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>Developed a web-based Weather App using HTML, CSS, and JavaScript to display real-time weather data.</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/vivekpochiraju-24/Weather-application/tree/main" target="_blank" class="view-button">View Project</a>
+            </div>
+
+
             <div class="project-card">
                 <h3>Stopwatch Web Application</h3>
                 <p>Built an interactive stopwatch application using HTML, CSS, and JavaScript.</p>
@@ -167,6 +212,17 @@
                     <span>CSS</span>
                     <span>JavaScript</span>
                 </div>
+                <a href="https://github.com/vivekpochiraju-24/stopwatch-application/tree/main" target="_blank" class="view-button">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Web Scraping Project</h3>
+                <p>Developed a web scraping tool using Python to extract data from websites.</p>
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>BeautifulSoup</span>
+                    <span>Requests</span>
+                </div>
+                <a href="https://github.com/vivekpochiraju-24/webscrapping/tree/main" target="_blank" class="view-button">View Project</a>
             </div>
             <div class="project-card">
                 <h3>Titanic Classification Task</h3>
@@ -176,7 +232,24 @@
                     <span>ML</span>
                     <span>Data Analysis</span>
                 </div>
+                <a href="https://github.com/vivekpochiraju-24/CodeAlpha_titanic-classification/tree/main" target="_blank" class="view-button">View Project</a>
             </div>
+        </div>
+        
+    </section>
+
+    <section id="home-certifications" class="section">
+        <h2 class="section-title"><i class="fas fa-certificate"></i> Certifications</h2>
+        <div class="education-grid">
+            <div class="education-card">
+                <h3>Certification Name 1 <span class="education-year">(Year)</span></h3>
+                <p>Description of the certification.</p>
+            </div>
+            <div class="education-card">
+                <h3>Certification Name 2 <span class="education-year">(Year)</span></h3>
+                <p>Description of the certification.</p>
+            </div>
+            <!-- Add more certifications as needed -->
         </div>
     </section>
 
@@ -205,7 +278,7 @@
 
             <div class="experience-card">
                 <div class="experience-header">
-                    <h3>Trigonex- Front End Web Development</h3>
+                    <h3>Trigovex- Front End Web Development</h3>
                     <span class="role">Intern</span>
                 </div>
                 <div class="experience-timeline">
@@ -224,45 +297,7 @@
             </div>
         </div>
     </section>
-
-    <section id="languages" class="section">
-        <h2 class="section-title"><i class="fas fa-language"></i> Languages</h2>
-        <div class="languages-grid">
-            <div class="language-card">
-                <div class="language-icon">🇬🇧</div>
-                <h3>English</h3>
-                <div class="proficiency">
-                    <div class="proficiency-bar" data-level="90">
-                        <div class="proficiency-fill"></div>
-                    </div>
-                    <span>Bilingual Proficiency</span>
-                </div>
-            </div>
-
-            <div class="language-card">
-                <div class="language-icon">🇮🇳</div>
-                <h3>Telugu</h3>
-                <div class="proficiency">
-                    <div class="proficiency-bar" data-level="100">
-                        <div class="proficiency-fill"></div>
-                    </div>
-                    <span>Native</span>
-                </div>
-            </div>
-
-            <div class="language-card">
-                <div class="language-icon">🇮🇳</div>
-                <h3>Hindi</h3>
-                <div class="proficiency">
-                    <div class="proficiency-bar" data-level="80">
-                        <div class="proficiency-fill"></div>
-                    </div>
-                    <span>Professional Proficiency</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <section id="contact" class="section">
     <footer class="footer">
         <div class="footer-content">
             <div class="contact-section">
@@ -300,30 +335,12 @@
 
                     <div class="contact-card">
                         <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
+                            <i class="fab fa-github"></i>
                         </div>
-                        <h3>Location</h3>
+                        <h3>GitHub Profile</h3>
                         <p class="contact-text">
-                            Sivajayam Street, ATRR, India
+                            <a href="https://github.com/vivekpochiraju-24" target="_blank">vivekpochiraju-24</a>
                         </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="languages-section">
-                <h3><i class="fas fa-language"></i> Languages</h3>
-                <div class="language-pills">
-                    <div class="language-pill">
-                        <span class="language-name">English</span>
-                        <span class="proficiency-level">Bilingual</span>
-                    </div>
-                    <div class="language-pill">
-                        <span class="language-name">Telugu</span>
-                        <span class="proficiency-level">Native</span>
-                    </div>
-                    <div class="language-pill">
-                        <span class="language-name">Hindi</span>
-                        <span class="proficiency-level">Professional</span>
                     </div>
                 </div>
             </div>
@@ -333,32 +350,12 @@
             </div>
         </div>
     </footer>
+</section>
 
     <script>
-        const text = "Aspiring developer passionate about creating web applications with modern technologies. Skilled in HTML, CSS, and JavaScript.";
-        const typingSpeed = 50;
-        const typingDelay = 1000;
-        
-        function typeText() {
-            const typedTextSpan = document.querySelector(".typed-text");
-            const cursorSpan = document.querySelector(".cursor");
-            const textArray = text.split("");
-            let i = 0;
-            
-            function type() {
-                if (i < textArray.length) {
-                    typedTextSpan.textContent += textArray[i];
-                    i++;
-                    setTimeout(type, typingSpeed);
-                } else {
-                    cursorSpan.classList.add("typing");
-                }
-            }
-            
-            setTimeout(type, typingDelay);
-        }
-        
-        document.addEventListener("DOMContentLoaded", typeText);
+        document.addEventListener("DOMContentLoaded", function() {
+            // Initialize any remaining functionality
+        });
     </script>
 </body>
 </html>
