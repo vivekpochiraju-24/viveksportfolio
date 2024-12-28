@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Pochiraju - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo-container">
+                <div class="logo">
+                    <svg width="50" height="50" viewBox="0 0 50 50">
+                        <defs>
+                            <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#00ff88" />
+                                <stop offset="100%" style="stop-color:#7000ff" />
+                            </linearGradient>
+                        </defs>
+                        <path class="logo-path" d="M10 25 L25 10 L40 25 L25 40 Z" fill="none" stroke="url(#logoGradient)" stroke-width="2" />
+                        <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="logo-text">VP</text>
+                    </svg>
+                    <span class="logo-name">Vivek Pochiraju</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <div class="intro-section">
+                <h1 data-text="Vivek Pochiraju">Vivek</h1>
+                <h2 class="typing-text">Junior Developer</h2>
+                <div class="hero-cta">
+                    <a href="#projects" class="cta-btn">View Projects</a>
+                    <a href="#contact" class="cta-btn outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="objective">
+                <p class="objective-text typing-effect">
+                    <span class="typed-text"></span><span class="cursor">|</span>
+                </p>
+                <div class="tech-stack">
+                    <span>Full Stack</span>
+                    <span>•</span>
+                    <span>Responsive Design</span>
+                    <span>•</span>
+                    <span>Problem Solver</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title">Education Journey</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="edu-header">
+                                <h3>Bachelor of Technology</h3>
+                                <span class="year">2020 - 2024</span>
+                            </div>
+                            <p class="institution">Sreenidhi Institute of Science and Technology</p>
+                            <p class="field">Computer Science Engineering</p>
+                            <ul class="achievements">
+                                <li>CGPA: 7.5</li>
+                                <li>Web Development Team Lead</li>
+                                <li>Technical Committee Member</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="edu-header">
+                                <h3>Intermediate Education</h3>
+                                <span class="year">2018 - 2020</span>
+                            </div>
+                            <p class="institution">Sri Chaitanya Junior College</p>
+                            <p class="field">MPC</p>
+                            <ul class="achievements">
+                                <li>Percentage: 95%</li>
+                                <li>Mathematics Club Member</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="edu-header">
+                                <h3>Secondary Education</h3>
+                                <span class="year">2017 - 2018</span>
+                            </div>
+                            <p class="institution">Pallavi Model School</p>
+                            <p class="field">CBSE</p>
+                            <ul class="achievements">
+                                <li>CGPA: 9.8</li>
+                                <li>Science Club Coordinator</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title"><i class="fas fa-code"></i> Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3><i class="fas fa-laptop-code"></i> Programming</h3>
+                <div class="skill-items">
+                    <span>Python</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>SQL</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-database"></i> Data Science</h3>
+                <div class="skill-items">
+                    <span>Data Visualization</span>
+                    <span>Data Analysis</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-globe"></i> Web Development</h3>
+                <div class="skill-items">
+                    <span>Full Stack Development</span>
+                    <span>Power BI Developer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title"><i class="fas fa-project-diagram"></i> Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Responsive Landing Page Navigation Task</h3>
+                <p>Created a fluid and interactive navigation menu using HTML, CSS, and JavaScript.</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Stopwatch Web Application</h3>
+                <p>Built an interactive stopwatch application using HTML, CSS, and JavaScript.</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Titanic Classification Task</h3>
+                <p>Implemented machine learning techniques to predict passenger survival based on various features.</p>
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>ML</span>
+                    <span>Data Analysis</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2 class="section-title"><i class="fas fa-briefcase"></i> Work Experience</h2>
+        <div class="experience-grid">
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3>Teachnook- Artificial Intelligence</h3>
+                    <span class="role">Intern</span>
+                </div>
+                <div class="experience-timeline">
+                    <i class="fas fa-calendar"></i>
+                    <span>05/2024 - 06/2024</span>
+                </div>
+                <div class="experience-content">
+                    <p>Worked on projects in artificial intelligence and machine learning, focusing on:</p>
+                    <ul class="experience-points">
+                        <li><i class="fas fa-check-circle"></i> Model Development</li>
+                        <li><i class="fas fa-check-circle"></i> Data Preprocessing</li>
+                        <li><i class="fas fa-check-circle"></i> NLP Implementation</li>
+                        <li><i class="fas fa-check-circle"></i> Image Classification</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3>Trigonex- Front End Web Development</h3>
+                    <span class="role">Intern</span>
+                </div>
+                <div class="experience-timeline">
+                    <i class="fas fa-calendar"></i>
+                    <span>04/2023 - 06/2023</span>
+                </div>
+                <div class="experience-content">
+                    <p>Specialized in creating responsive and interactive web applications:</p>
+                    <ul class="experience-points">
+                        <li><i class="fas fa-check-circle"></i> UI/UX Design</li>
+                        <li><i class="fas fa-check-circle"></i> Responsive Web Development</li>
+                        <li><i class="fas fa-check-circle"></i> Interactive Features</li>
+                        <li><i class="fas fa-check-circle"></i> Performance Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="languages" class="section">
+        <h2 class="section-title"><i class="fas fa-language"></i> Languages</h2>
+        <div class="languages-grid">
+            <div class="language-card">
+                <div class="language-icon">🇬🇧</div>
+                <h3>English</h3>
+                <div class="proficiency">
+                    <div class="proficiency-bar" data-level="90">
+                        <div class="proficiency-fill"></div>
+                    </div>
+                    <span>Bilingual Proficiency</span>
+                </div>
+            </div>
+
+            <div class="language-card">
+                <div class="language-icon">🇮🇳</div>
+                <h3>Telugu</h3>
+                <div class="proficiency">
+                    <div class="proficiency-bar" data-level="100">
+                        <div class="proficiency-fill"></div>
+                    </div>
+                    <span>Native</span>
+                </div>
+            </div>
+
+            <div class="language-card">
+                <div class="language-icon">🇮🇳</div>
+                <h3>Hindi</h3>
+                <div class="proficiency">
+                    <div class="proficiency-bar" data-level="80">
+                        <div class="proficiency-fill"></div>
+                    </div>
+                    <span>Professional Proficiency</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="contact-section">
+                <h2 class="section-title"><i class="fas fa-paper-plane"></i> Contact Me</h2>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:vivekpochiraju@gmail.com" class="contact-link">
+                            vivekpochiraju@gmail.com
+                        </a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <a href="tel:9603673436" class="contact-link">
+                            +91 9603673436
+                        </a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/vivek-pochiraju-996b042a9" target="_blank" class="contact-link">
+                            vivek-pochiraju
+                        </a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p class="contact-text">
+                            Sivajayam Street, ATRR, India
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="languages-section">
+                <h3><i class="fas fa-language"></i> Languages</h3>
+                <div class="language-pills">
+                    <div class="language-pill">
+                        <span class="language-name">English</span>
+                        <span class="proficiency-level">Bilingual</span>
+                    </div>
+                    <div class="language-pill">
+                        <span class="language-name">Telugu</span>
+                        <span class="proficiency-level">Native</span>
+                    </div>
+                    <div class="language-pill">
+                        <span class="language-name">Hindi</span>
+                        <span class="proficiency-level">Professional</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Vivek Pochiraju. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const text = "Aspiring developer passionate about creating web applications with modern technologies. Skilled in HTML, CSS, and JavaScript.";
+        const typingSpeed = 50;
+        const typingDelay = 1000;
+        
+        function typeText() {
+            const typedTextSpan = document.querySelector(".typed-text");
+            const cursorSpan = document.querySelector(".cursor");
+            const textArray = text.split("");
+            let i = 0;
+            
+            function type() {
+                if (i < textArray.length) {
+                    typedTextSpan.textContent += textArray[i];
+                    i++;
+                    setTimeout(type, typingSpeed);
+                } else {
+                    cursorSpan.classList.add("typing");
+                }
+            }
+            
+            setTimeout(type, typingDelay);
+        }
+        
+        document.addEventListener("DOMContentLoaded", typeText);
+    </script>
+</body>
+</html>
