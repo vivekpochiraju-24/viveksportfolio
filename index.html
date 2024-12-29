@@ -26,15 +26,20 @@
                     <span class="logo-name">Vivek Pochiraju</span>
                 </div>
             </div>
-            <ul class="nav-links">
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#home-certifications">Certifications</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-               
-            </ul>
+            <div class="nav-container">
+                <button class="nav-toggle" id="nav-toggle">
+                    &#9776; <!-- Hamburger icon -->
+                </button>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#home-certifications">Certifications</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#workshops-events">Workshops and Events</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -58,19 +63,19 @@
         <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
         <div class="education-grid">
             <div class="education-card animated-card">
-                <h3>Bachelor of Technology</h3>
+                <h3><span class="gradient-text">Bachelor of Technology</span></h3>
                 <p>Swarnandhra College of Engineering and Technology</p>
                 <p><i class="fas fa-calendar-alt"></i> 2022 - 2026</p>
                 <p><i class="fas fa-map-marker-alt"></i> Seetharampuram</p>
             </div>
             <div class="education-card animated-card">
-                <h3>Intermediate Education</h3>
+                <h3><span class="gradient-text">Intermediate Education</span></h3>
                 <p>Sasi Junior College</p>
                 <p><i class="fas fa-calendar-alt"></i> 2020 - 2022</p>
                 <p><i class="fas fa-map-marker-alt"></i> Tanuku</p>
             </div>
             <div class="education-card animated-card">
-                <h3>Secondary Education</h3>
+                <h3><span class="gradient-text">Secondary Education</span></h3>
                 <p>M.V.R Montessori School</p>
                 <p><i class="fas fa-calendar-alt"></i> 2019 - 2020</p>
                 <p><i class="fas fa-map-marker-alt"></i> Attili</p>
@@ -81,55 +86,82 @@
     <section id="skills" class="skills-section">
         <h2 class="section-title"><i class="fas fa-cogs"></i> Skills</h2>
         <div class="skills-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div class="skill-card animated-card p-4 border rounded-lg shadow-md transition-transform duration-300 ease-in-out hover:transform hover:-translate-y-2">
-                <h3 class="font-bold text-lg skill-heading"><i class="fas fa-code"></i> Frontend</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>React j.s</li>
-                    <li>Bootstrap</li>
-                </ul>
+            <div class="skill-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3 class="skill-heading"><i class="fas fa-code"></i> Frontend</h3>
+                    </div>
+                    <div class="card-back">
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> HTML5</li>
+                            <li><i class="fas fa-check-circle"></i> CSS3</li>
+                            <li><i class="fas fa-check-circle"></i> JavaScript</li>
+                            <li><i class="fas fa-check-circle"></i> React</li>
+                            <li><i class="fas fa-check-circle"></i> Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="skill-card animated-card p-4 border rounded-lg shadow-md transition-transform duration-300 ease-in-out hover:transform hover:-translate-y-2">
-                <h3 class="font-bold text-lg skill-heading"><i class="fas fa-server"></i> Backend</h3>
-                <ul>
-                    <li>Java</li>
-                    <li>C</li>
-                    <li>Python</li>
-                    <li>SQL</li>
-                    <li>Django</li>
-                </ul>
+            <div class="skill-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3 class="skill-heading"><i class="fas fa-server"></i> Backend</h3>
+                    </div>
+                    <div class="card-back">
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Node.js</li>
+                            <li><i class="fas fa-check-circle"></i> Django</li>
+                            <li><i class="fas fa-check-circle"></i> Rest APIs</li>
+                            <li><i class="fas fa-check-circle"></i> PostgreSQL</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="skill-card animated-card p-4 border rounded-lg shadow-md transition-transform duration-300 ease-in-out hover:transform hover:-translate-y-2">
-                <h3 class="font-bold text-lg skill-heading"><i class="fas fa-code-branch"></i> Programming Languages</h3>
-                <ul>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>C</li>
-                    <li>SQL</li>
-                    <li>Html</li>
-                    <li>Css</li>
-                </ul>
+            <div class="skill-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3 class="skill-heading"><i class="fas fa-code-branch"></i> Programming Languages</h3>
+                    </div>
+                    <div class="card-back">
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Java</li>
+                            <li><i class="fas fa-check-circle"></i> Python</li>
+                            <li><i class="fas fa-check-circle"></i> C</li>
+                            <li><i class="fas fa-check-circle"></i> SQL</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="skill-card animated-card p-4 border rounded-lg shadow-md transition-transform duration-300 ease-in-out hover:transform hover:-translate-y-2">
-                <h3 class="font-bold text-lg skill-heading"><i class="fas fa-tools"></i> Tools & Techniques</h3>
-                <ul>
-                    <li>Git</li>
-                    <li>Github</li>
-                    <li>vscode</li>
-                    <li>Oracle SQL Developer</li>
-                    <li>Jupyter</li>
-                </ul>
+            <div class="skill-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3 class="skill-heading"><i class="fas fa-tools"></i> Tools & Techniques</h3>
+                    </div>
+                    <div class="card-back">
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Git</li>
+                            <li><i class="fas fa-check-circle"></i> Github</li>
+                            <li><i class="fas fa-check-circle"></i> VS Code</li>
+                            <li><i class="fas fa-check-circle"></i> Jupyter</li>
+                            <li><i class="fas fa-check-circle"></i> Tensor Flow</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="skill-card animated-card p-4 border rounded-lg shadow-md transition-transform duration-300 ease-in-out hover:transform hover:-translate-y-2">
-                <h3 class="font-bold text-lg skill-heading"><i class="fas fa-user-friends"></i> Soft Skills</h3>
-                <ul>
-                    <li>Teamwork</li>
-                    <li>Communication</li>
-                    <li>Problem Solving</li>
-                    <li>Project Management</li>
-                </ul>
+            <div class="skill-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3 class="skill-heading"><i class="fas fa-user-friends"></i> Soft Skills</h3>
+                    </div>
+                    <div class="card-back">
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Teamwork</li>
+                            <li><i class="fas fa-check-circle"></i> Communication</li>
+                            <li><i class="fas fa-check-circle"></i> Problem Solving</li>
+                            <li><i class="fas fa-check-circle"></i> Project Management</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section> 
@@ -138,7 +170,7 @@
         <h2 class="section-title"><i class="fas fa-project-diagram"></i> Projects</h2>
         <div class="projects-grid">
             <div class="project-card">
-                <h3>Responsive Landing Page Navigation Task</h3>
+                <h3><span class="gradient-text">Responsive Landing Page Navigation Task></span></h3>
                 <p>Created a fluid and interactive navigation menu using HTML, CSS, and JavaScript.</p>
                 <div class="project-tags">
                     <span>HTML</span>
@@ -149,7 +181,7 @@
             </div>
 
             <div class="project-card">
-                <h3>Stock Market Prediction</h3>
+                <h3><span class="gradient-text">Stock Market Prediction</span></h3>
                 <p>Developed a web-based Stock Market Prediction application using HTML, CSS, and JavaScript to analyze stock trends.</p>
                 <div class="project-tags">
                     <span>HTML</span>
@@ -160,7 +192,7 @@
             </div>
 
             <div class="project-card">
-                <h3>Tic-Tac-Toe</h3>
+                <h3><span class="gradient-text">Tic-Tac-Toe</span></h3>
                 <p>Developed a web-based Tic-Tac-Toe game using HTML, CSS, and JavaScript.</p>
                 <div class="project-tags">
                     <span>HTML</span>
@@ -171,7 +203,7 @@
             </div>
 
             <div class="project-card">
-                <h3>Clone Portfolio</h3>
+                <h3><span class="gradient-text">Clone Portfolio</span></h3>
                 <p>Developed a web-based Clone Portfolio using HTML, CSS, and JavaScript to showcase projects and skills.</p>
                 <div class="project-tags">
                     <span>HTML</span>
@@ -182,7 +214,7 @@
             </div>
             
             <div class="project-card">
-                <h3>Calculator</h3>
+                <h3><span class="gradient-text">Calculator</span></h3>
                 <p>Developed a web-based Calculator using HTML, CSS, and JavaScript to perform basic arithmetic operations.</p>
                 <div class="project-tags">
                     <span>HTML</span>
@@ -193,7 +225,7 @@
             </div>
             
             <div class="project-card">
-                <h3>Weather App</h3>
+                <h3><span class="gradient-text">Weather App</span></h3>
                 <p>Developed a web-based Weather App using HTML, CSS, and JavaScript to display real-time weather data.</p>
                 <div class="project-tags">
                     <span>HTML</span>
@@ -205,7 +237,7 @@
 
 
             <div class="project-card">
-                <h3>Stopwatch Web Application</h3>
+                <h3><span class="gradient-text">Stopwatch Web Application</span></h3>
                 <p>Built an interactive stopwatch application using HTML, CSS, and JavaScript.</p>
                 <div class="project-tags">
                     <span>HTML</span>
@@ -215,7 +247,7 @@
                 <a href="https://github.com/vivekpochiraju-24/stopwatch-application/tree/main" target="_blank" class="view-button">View Project</a>
             </div>
             <div class="project-card">
-                <h3>Web Scraping Project</h3>
+                <h3><span class="gradient-text">Web Scraping Project</span></h3>
                 <p>Developed a web scraping tool using Python to extract data from websites.</p>
                 <div class="project-tags">
                     <span>Python</span>
@@ -225,7 +257,7 @@
                 <a href="https://github.com/vivekpochiraju-24/webscrapping/tree/main" target="_blank" class="view-button">View Project</a>
             </div>
             <div class="project-card">
-                <h3>Titanic Classification Task</h3>
+                <h3><span class="gradient-text">Titanic Classification Task</span></h3>
                 <p>Implemented machine learning techniques to predict passenger survival based on various features.</p>
                 <div class="project-tags">
                     <span>Python</span>
@@ -240,30 +272,86 @@
 
     <section id="home-certifications" class="section">
         <h2 class="section-title"><i class="fas fa-certificate"></i> Certifications</h2>
-        <div class="education-grid">
-            <div class="education-card">
-                <h3>Certification Name 1 <span class="education-year">(Year)</span></h3>
-                <p>Description of the certification.</p>
-            </div>
-            <div class="education-card">
-                <h3>Certification Name 2 <span class="education-year">(Year)</span></h3>
-                <p>Description of the certification.</p>
-            </div>
+        
+        <div class="certification-card">
+            <h3 class="certification-title">NPTEL Online Certification</h3>
+            <p class="certification-awarded">This certificate is awarded to <strong>POCHIRAJU VIVEK SAI SRI KRISHNA</strong> for successfully completing the course:</p>
+            <h4 class="course-title">Python for Data Science</h4>
+            <p class="consolidated-score">With a consolidated score of <strong>66%</strong></p>
+            <p class="total-candidates">Total number of candidates certified in this course: <strong>11133</strong></p>
+            <p class="date">Jul-Aug 2024 (4 week course)</p>
+            <p class="certification-authority">Indian Institute of Technology Madras</p>
+        </div>
+
+        <div class="certification-card">
+            <h3 class="certification-title">Altair DataScience<br> 
+                Certificate of Virtual Internship</h3>
+            <p class="certification-awarded">This is to certify that <strong>VIVEK SAI SRI KRISHNA POCHIRAJU</strong></p>
+            <h4 class="course-title">Swarnandhra College of Engineering & Technology</h4>
+            <p class="internship-description">Has successfully completed <strong>10 weeks</strong> of</p>
+            <h4 class="course-title">Data Science Master Virtual Internship</h4>
+            <p class="internship-duration">During <strong>Oct - Dec 2024</strong></p>
+            <p class="supported-by">Supported By: <strong>ALT AIR</strong></p>
+            <p class="certification-id">Certificate ID: <strong>bef69b4ea60418746e22362717c73818</strong></p>
+            <p class="student-id">Student ID: <strong>STU659699920434c01704368416</strong></p>
+        </div>
+
+        <div class="certification-card">
+            <h3 class="certification-title">Power BI Certificate of Completion</h3>
+            <p class="certification-awarded">Proudly presented to <strong>POCHIRAJU VIVEK SAI SRI KRISHNA</strong></p>
+            <p class="workshop-description">For completing the <strong>2-Day Workshop</strong> on</p>
+            <h4 class="course-title">Business Intelligence using Power BI</h4>
+            <p class="conducted-by">Conducted By: <strong>Mr. Jatan Shah</strong></p>
+            <p class="certification-authority">Microsoft Certified Trainer, Co-founder & CEO, Skill Nation</p>
+            <p class="duration">Duration: <strong>8th & 9th June, 2024</strong></p>
+            <p class="website">Website: <strong><a href="https://www.skillnation.in" class="website-link">www.skillnation.in</a></strong></p>
+        </div>
+
+        <div class="certification-card">
+            <h3 class="certification-title"> CodXo Certification </h3>
+            <p class="certification-awarded">This certificate is proudly presented to <strong>POCHIRAJU VIVEK SAI SRI KRISHNA</strong> for successfully completing the internship in:</p>
+            <h4 class="course-title">Data Science</h4>
+            <p class="internship-duration"><span class="duration">From: <strong>01-May-2024</strong> to <strong>30-Jun-2024</strong></span></p>
+            <p class="internship-description">During his internship, he efficiently completed <strong>intermediate-level tasks</strong>, and we found the student to be dedicated and hardworking.</p>
+            <p class="certification-id">Certificate ID: <strong>CX24JL144</strong></p>
+            <p class="date"><span class="duration">Date: <strong>9/24/2024</strong></span></p>
+            <p class="certification-authority">CodXo</p>
+        </div>
+
+        <div class="certification-card">
+            <h3 class="certification-title">Certificate of Internship (Pantech.AI)</h3>
+            <p class="certification-awarded">This certificate is proudly presented to <strong>POCHIRAJU VIVEK SAI SRI KRISHNA</strong> for successfully completing:</p>
+            <h4 class="course-title">3 Months Internship on Full Stack Web Development</h4>
+            <p class="internship-duration"><span class="duration">From: <strong>Jun 17, 2024</strong> to <strong>Sep 17, 2024</strong></span></p>
+            <p class="certification-authority">M.K. Jeevarajan, Founder & CEO</p>
+            <p class="website">Website: <strong><a href="https://www.pantech.ai" class="website-link">www.pantech.ai</a></strong></p>
+            <p class="certification-id">Certificate No: <strong>WW_3FSWD_OL_1807</strong></p>
+        </div>
+
+        <div class="certification-card">
+            <h3 class="certification-title">Teachnook Course Completion</h3>
+            <p class="certification-awarded">Presented to <strong>POCHIRAJU VIVEK SAI SRI KRISHNA</strong> for successfully completing:</p>
+            <h4 class="course-title">A course in Artificial Intelligence</h4>
+            <p class="collaboration">With <strong>Teachnook</strong> in collaboration with <strong>Cognizance'24 IIT Roorkee</strong>.</p>
+            <p class="internship-description"><span class="duration">During <strong>Oct - Dec 2024</strong></span></p>
+            <p class="certification-id">Certificate ID: <strong>TNCC2404-04737</strong></p>
+        </div>
             <!-- Add more certifications as needed -->
         </div>
     </section>
+
 
     <section id="experience" class="section">
         <h2 class="section-title"><i class="fas fa-briefcase"></i> Work Experience</h2>
         <div class="experience-grid">
             <div class="experience-card">
                 <div class="experience-header">
-                    <h3>Teachnook- Artificial Intelligence</h3>
+                    <h3 class="experience-title">Teachnook - Artificial Intelligence</h3>
                     <span class="role">Intern</span>
                 </div>
                 <div class="experience-timeline">
                     <i class="fas fa-calendar"></i>
-                    <span>05/2024 - 06/2024</span>
+                    <span class="duration">05/2024 - 06/2024</span>
                 </div>
                 <div class="experience-content">
                     <p>Worked on projects in artificial intelligence and machine learning, focusing on:</p>
@@ -275,28 +363,208 @@
                     </ul>
                 </div>
             </div>
-
             <div class="experience-card">
                 <div class="experience-header">
-                    <h3>Trigovex- Front End Web Development</h3>
+                    <h3 class="experience-title">Pantech Prolabs - Internship</h3>
                     <span class="role">Intern</span>
                 </div>
                 <div class="experience-timeline">
                     <i class="fas fa-calendar"></i>
-                    <span>04/2023 - 06/2023</span>
+                    <span class="duration">06/17/2024 - 09/17/2024</span>
+                </div>
+                <div class="experience-content">
+                    <p>Selected for an internship position focusing on:</p>
+                    <ul class="experience-points">
+                        <li><i class="fas fa-check-circle"></i> Hands-on experience in projects</li>
+                        <li><i class="fas fa-check-circle"></i> Collaboration with development team</li>
+                        <li><i class="fas fa-check-circle"></i> Skill development in AI and ML</li>
+                        <li><i class="fas fa-check-circle"></i> Contributing to meaningful projects</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3 class="experience-title">Trigovex - Front End Web Development</h3>
+                    <span class="role">Intern</span>
+                </div>
+                <div class="experience-timeline">
+                    <i class="fas fa-calendar"></i>
+                    <span class="duration">04/2023 - 06/2023</span>
                 </div>
                 <div class="experience-content">
                     <p>Specialized in creating responsive and interactive web applications:</p>
                     <ul class="experience-points">
-                        <li><i class="fas fa-check-circle"></i> UI/UX Design</li>
+                        <li><i class="fas fa-check-circle"></i>Build a Portfolio</li>
                         <li><i class="fas fa-check-circle"></i> Responsive Web Development</li>
                         <li><i class="fas fa-check-circle"></i> Interactive Features</li>
                         <li><i class="fas fa-check-circle"></i> Performance Optimization</li>
                     </ul>
                 </div>
             </div>
+
+           <div class="experience-card">
+    <div class="experience-header">
+        <h3 class="experience-title">AWS Academy - Cloud Virtual Internship</h3>
+        <span class="role">Intern</span>
+    </div>
+    <div class="experience-timeline">
+        <i class="fas fa-calendar"></i>
+        <span class="duration">04/2024 - 06/2024</span>
+    </div>
+    <div class="experience-content">
+        <p>Completed a 10-week virtual internship focusing on:</p>
+        <ul class="experience-points">
+            <li><i class="fas fa-check-circle"></i> Cloud computing fundamentals</li>
+            <li><i class="fas fa-check-circle"></i> Hands-on experience with AWS services</li>
+            <li><i class="fas fa-check-circle"></i> Project-based learning in cloud technologies</li>
+            <li><i class="fas fa-check-circle"></i> Collaboration with peers on cloud projects</li>
+        </ul>
+    </div>
+</div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3 class="experience-title">Prodigy InfoTech - Generative AI Intern</h3>
+                    <span class="role">Intern</span>
+                </div>
+                <div class="experience-timeline">
+                    <i class="fas fa-calendar"></i>
+                    <span class="duration">07/15/2024 - 08/15/2024</span>
+                </div>
+                <div class="experience-content">
+                    <p>Selected for a Generative AI internship focusing on:</p>
+                    <ul class="experience-points">
+                        <li><i class="fas fa-check-circle"></i> Hands-on experience in AI projects</li>
+                        <li><i class="fas fa-check-circle"></i> Learning new skills in generative models</li>
+                        <li><i class="fas fa-check-circle"></i> Application of concepts through practical tasks</li>
+                        <li><i class="fas fa-check-circle"></i> Collaboration with the AI development team</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3 class="experience-title">CodeAlpha - Data Science Internship</h3>
+                    <span class="role">Intern</span>
+                </div>
+                <div class="experience-timeline">
+                    <i class="fas fa-calendar"></i>
+                    <span class="duration">08/15/2024 - 09/15/2024</span>
+                </div>
+                <div class="experience-content">
+                    <p>Selected for a Data Science internship focusing on:</p>
+                    <ul class="experience-points">
+                        <li><i class="fas fa-check-circle"></i> Hands-on experience with data analysis</li>
+                        <li><i class="fas fa-check-circle"></i> Learning new skills in machine learning</li>
+                        <li><i class="fas fa-check-circle"></i> Application of concepts through projects</li>
+                        <li><i class="fas fa-check-circle"></i> Collaboration with the development team</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </section>
+
+    <section id="workshops-events" class="section">
+        <h2 class="section-title">Workshops and Events</h2>
+
+        <div class="experience-grid">
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3 class="experience-title">Excel Workshop</h3>
+                    <span class="role">Participant</span>
+                </div>
+                <div class="experience-timeline">
+                    <i class="fas fa-calendar"></i>
+                    <span class="duration">June 17, 2024</span>
+                </div>
+                <div class="experience-content">
+                    <p>Conducted by: OfficeMaster</p>
+                    <p>Description: A workshop focusing on advanced Excel techniques and data analysis.</p>
+                </div>
+            </div>
+            <div class="experience-card">
+            <div class="experience-header">
+                <h3 class="experience-title">IET Ignite - Transit Techies</h3>
+                <span class="role">Participant</span>
+            </div>
+            <div class="experience-timeline">
+                <i class="fas fa-calendar"></i>
+                <span class="duration">Dec 14,2024</span>
+            </div>
+            <div class="experience-content">
+                <p>Conducted by: IET Bengaluru & Hyderabad Network</p>
+                <p>Description: Participated in Round 2 of the IET Ignite event in collaboration with Arcadis Consulting India Pvt Ltd.</p>
+            </div>
+        </div>
+          
+        <div class="experience-card">
+            <div class="experience-header">
+                <h3 class="experience-title">IoT Workshop - Modernizing Agriculture</h3>
+                <span class="role">Participant</span>
+            </div>
+            <div class="experience-timeline">
+                <i class="fas fa-calendar"></i>
+                <span class="duration">December 27, 2024</span>
+            </div>
+            <div class="experience-content">
+                <p>Conducted by: Dr.Rajavel Ramadoss</p>
+                <p>Description: Participated in a workshop focusing on the role of IoT in modernizing agriculture.</p>
+            </div>
+        </div>
+
+        <div class="experience-card">
+            <div class="experience-header">
+                <h3 class="experience-title">IoT Workshop - PicoW Connectivity</h3>
+                <span class="role">Participant</span>
+            </div>
+            <div class="experience-timeline">
+                <i class="fas fa-calendar"></i>
+                <span class="duration">December 28, 2024</span>
+            </div>
+            <div class="experience-content">
+                <p>Conducted by: Dr.Rajavel Ramadoss</p>
+                <p>Description: Participated in a workshop on wireless connectivity for PicoW (Client-Server Communication).</p>
+            </div>
+        </div>
+    
+        <div class="experience-card">
+            <div class="experience-header">
+                <h3 class="experience-title">Master SQL Fundamentals</h3>
+                <span class="role">Participant</span>
+            </div>
+            <div class="experience-timeline">
+                <i class="fas fa-calendar"></i>
+                <span class="duration">September 9, 2024</span>
+            </div>
+            <div class="experience-content">
+                <p>Conducted by: Tushar Jha</p>
+                <p>Analytics Lead at Amazon (Ex-Airbnb, Ex-Paytm)</p>
+                <p>Description: Participated in a  masterclass focusing on SQL fundamentals</p>
+            </div>
+        </div>
+
+
+        <div class="experience-card">
+            <div class="experience-header">
+                <h3 class="experience-title">Freedom with AI Masterclass</h3>
+                <span class="role">Participant</span>
+            </div>
+            <div class="experience-timeline">
+                <i class="fas fa-calendar"></i>
+                <span class="duration">May 19,2024</span>
+            </div>
+            <div class="experience-content">
+                <p>Conducted by: Freedom with AI</p>
+                <p>Description: Successfully completed the masterclass focusing on AI concepts and applications.</p>
+            </div>
+        </div>
+            <!-- Add more workshops/events as needed -->
+        </div>
+    </section>
+
+
     <section id="contact" class="section">
     <footer class="footer">
         <div class="footer-content">
@@ -345,6 +613,7 @@
                 </div>
             </div>
 
+            <div class="footer-gradient-line"></div>
             <div class="footer-bottom">
                 <p>&copy; 2024 Vivek Pochiraju. All rights reserved.</p>
             </div>
@@ -352,10 +621,19 @@
     </footer>
 </section>
 
+   
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             // Initialize any remaining functionality
         });
+
+        const navToggle = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active'); // Toggle the active class
+        });
     </script>
 </body>
 </html>
+
