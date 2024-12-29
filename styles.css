@@ -147,44 +147,60 @@ body::before {
 .nav-toggle {
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 30px;
     cursor: pointer;
-    display: none; /* Hidden by default */
+    color: transparent;
+    position: relative;
+    z-index: 1001;
+}
+
+.nav-toggle::before {
+    content: "Menu";
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.nav-toggle:hover::before {
+    opacity: 1;
 }
 
 .nav-links {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Horizontal layout for desktop */
+    display: flex;
 }
 
 .nav-links li {
-    margin: 0 15px; /* Spacing between links */
+    margin: 0 15px;
 }
 
 @media (max-width: 768px) {
     .nav-toggle {
-        display: block; /* Show toggle button on mobile */
+        display: block;
     }
 
     .nav-links {
-        display: none; /* Hide links by default on mobile */
-        flex-direction: column; /* Vertical layout for mobile */
+        display: none;
+        flex-direction: column;
         position: absolute;
-        top: 50px; /* Adjust based on your header height */
+        top: 50px;
         left: 0;
-        background: white; /* Background color for dropdown */
-        width: 100%; /* Full width */
-        z-index: 1000; /* Ensure it appears above other content */
+        background:transparent;
+        width: 100%;
+        z-index: 1000;
     }
 
     .nav-links.active {
-        display: flex; /* Show links when active */
+        display: flex;
     }
 
     .nav-links li {
-        margin: 10px 0; /* Spacing for vertical layout */
+        margin: 10px 0;
     }
 }
 
