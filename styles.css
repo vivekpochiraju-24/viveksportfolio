@@ -156,7 +156,7 @@ body::before {
 }
 
 .nav-toggle:hover {
-    color: #000; /* Change icon color to black on hover */
+    color: #ffffff; /* Change icon color to black on hover */
 }
 
 .nav-links {
@@ -183,7 +183,7 @@ body::before {
         position: absolute;
         top: 50px; /* Adjust based on your header height */
         left: 0;
-        background: #003366; /* Dark blue background for dropdown */
+        background: transparent; /* Dark blue background for dropdown */
         width: 100%; /* Full width */
         z-index: 1000; /* Ensure it appears above other content */
         text-align: center; /* Center text for mobile */
