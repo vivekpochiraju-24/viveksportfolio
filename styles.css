@@ -149,7 +149,7 @@ body::before {
     border: none;
     font-size: 30px;
     cursor: pointer;
-    color: #333; /* Set icon color to dark for contrast */
+    color: #ffffff; /* Set icon color to dark for contrast */
     position: relative;
     z-index: 1001;
     transition: color 0.3s ease; /* Smooth transition for color */
@@ -163,13 +163,13 @@ body::before {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; /* Horizontal layout for desktop */
+    justify-content: center; /* Center the links */
+    align-items: center; /* Vertically center the links */
 }
 
 .nav-links li {
-    margin: 0 15px;
+    margin: 0 15px; /* Spacing between links */
 }
 
 @media (max-width: 768px) {
@@ -178,23 +178,33 @@ body::before {
     }
 
     .nav-links {
-        display: none;
-        flex-direction: column;
+        display: none; /* Hide links by default on mobile */
+        flex-direction: column; /* Vertical layout for mobile */
         position: absolute;
-        top: 50px;
+        top: 50px; /* Adjust based on your header height */
         left: 0;
-        background:transparent;
-        width: 100%;
-        z-index: 1000;
-        text-align: center;
+        background: #003366; /* Dark blue background for dropdown */
+        width: 100%; /* Full width */
+        z-index: 1000; /* Ensure it appears above other content */
+        text-align: center; /* Center text for mobile */
     }
 
     .nav-links.active {
-        display: flex;
+        display: flex; /* Show links when active */
     }
 
     .nav-links li {
-        margin: 10px 0;
+        margin: 10px 0; /* Spacing for vertical layout */
+        color: white; /* Set text color to white */
+    }
+
+    .nav-links li a {
+        color: white; /* Set link color to white */
+        text-decoration: none; /* Remove underline from links */
+    }
+
+    .nav-links li a:hover {
+        text-decoration: underline; /* Underline on hover for links */
     }
 }
 
