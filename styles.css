@@ -145,18 +145,18 @@ body::before {
 }
 
 .nav-toggle {
-    background: linear-gradient(90deg, rgb(12, 162, 231), rgb(37, 235, 175)); /* Blue to Green gradient */
+    background: transparent; /* Set background to transparent */
     border: none;
     font-size: 30px;
     cursor: pointer;
-    color: white; /* Set text color to white for better contrast */
+    color: #333; /* Set icon color to dark for contrast */
     position: relative;
     z-index: 1001;
-    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition for background and color */
+    transition: color 0.3s ease; /* Smooth transition for color */
 }
 
 .nav-toggle:hover {
-    background: linear-gradient(90deg, rgb(206, 41, 228), rgb(76, 76, 236)); /* Reverse gradient on hover */
+    color: #000; /* Change icon color to black on hover */
 }
 
 .nav-links {
